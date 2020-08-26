@@ -1,0 +1,92 @@
+html {
+  box-sizing: content-box;
+}
+
+*,
+*::before *::after {
+  box-sizzing: inherit;
+  margin: 0 auto;
+  padding: 0;
+}
+
+* {
+  /* outline: 1px solid red; */
+  box-sizing: content-box;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: -0.025em;
+  background-image: url('./images/images.jpg');
+  background-size: cover;
+}
+
+.container {
+  width: 970px;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+#inputForJS{
+  width: 300px;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(124, 124, 124);
+}
+#inputForJS::placeholder{
+  font-size: 20px;
+  color: rgb(124, 124, 124);
+}
+.invalid{
+  background-color: rgb(253, 180, 180);
+}
+.valid{
+  background-color: rgb(209, 253, 180);
+}
+#boxForJS{
+  list-style: none;
+  padding: 0;
+
+}
+.boxForInput{
+  display: flex;
+  justify-content: center;
+  padding: 120px 0px 0px;
+  margin-bottom: 100px;
+
+}
+.box__template{
+  display: flex;
+  padding: 0;
+  margin: 0 auto;
+  justify-content: center;
+
+}
+.box__inline-block{
+  padding: 0px 80px 0px 0px;
+}
+.country__flag{
+  display: inline-block;
+}
+.first-word-bold{
+  font-weight: bold;
+}
+.countries__items{
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
